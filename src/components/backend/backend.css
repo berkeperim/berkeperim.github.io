@@ -1,0 +1,27 @@
+:root{
+    --backend-color: #FB4D3D;
+}
+.backend-skills{
+    margin-top:4rem;
+}
+.backend-skills svg{
+    width:1.5rem;
+    height:1.5rem;
+}
+.backend-skills h4{
+    margin-bottom:1rem;
+}
+.backend-skills_container{
+    display:flex;
+    gap:1rem;
+    color:var(--color-white);
+}
+.backend-skills_bullet{
+    background:var(--backend-color);
+    height:30px;
+    display:flex;
+    align-items:center;
+    padding:0 .5rem;
+    border-radius:5px;
+    gap:.5rem;
+}

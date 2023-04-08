@@ -1,0 +1,27 @@
+:root{
+    --database-color: #345995;
+}
+.database-skills{
+    margin-top:4rem;
+}
+.database-skills svg{
+    width:1.5rem;
+    height:1.5rem;
+}
+.database-skills h4{
+    margin-bottom:1rem;
+}
+.database-skills_container{
+    display:flex;
+    gap:1rem;
+    color:var(--color-white);
+}
+.database-skills_bullet{
+    background:var(--database-color);
+    height:30px;
+    display:flex;
+    align-items:center;
+    padding:0 .5rem;
+    border-radius:5px;
+    gap:.5rem;
+}
