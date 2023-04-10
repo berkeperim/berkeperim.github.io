@@ -5,7 +5,7 @@ const Backend = () => {
   const backend_skills = [
     {name: "NodeJS", Icon: DiNodejsSmall},
     {name: "PHP", Icon: DiPhp},
-    {name: "Laravel", Icon: DiLaravel}
+    {name: "Larave", Icon: DiLaravel}
 ];
   return (
     <div className="backend-skills">
