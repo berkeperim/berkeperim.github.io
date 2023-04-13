@@ -1,8 +1,5 @@
 :root{
-    --frontend-color: #E40066;
-}
-.frontend-skills{
-    margin-top:4rem;
+    --frontend-color: var(--color-primary);
 }
 .frontend-skills svg{
     width:1.5rem;
@@ -15,6 +12,7 @@
     display:flex;
     gap:1rem;
     color:var(--color-white);
+    flex-wrap:wrap;
 }
 .frontend-skills_bullet{
     background:var(--frontend-color);

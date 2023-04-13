@@ -1,5 +1,4 @@
 header{
-    height:100vh;
     overflow:hidden;
 }
 .header__container{
@@ -7,10 +6,14 @@ header{
     height:100%;
     position:relative;
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
+    gap:1.5rem;
     align-items:flex-start;
     text-align:left;
     padding:2rem 0;
+}
+.header__left{
+    width:80%;
 }
 .header__img{
     height:50px;
@@ -22,6 +25,7 @@ header{
     display:flex;
     align-items:center;
     gap:1rem;
+    margin-bottom:1.5rem;
 }
 .header__detail img{
     height:30px;
@@ -30,14 +34,19 @@ header{
     padding:.2rem .5rem;
     border-radius:5px;
 }
+
 .header__info h5{
     font-size:1.2rem;
-    border-right:1px solid var(--color-light);
+    border-right:1px solid var(--color-primary);
     padding-right:1rem;
 }
-.header__info h1{
-    font-size:3rem;
+.header__right{
+    flex-grow:1;
 }
+.header__right-item{
+    margin-bottom:1.5rem;
+}
+
 /* ------- CTA -------- */
 .cta{
     margin-top:2.5rem;
@@ -54,13 +63,55 @@ header{
     gap:.8rem;
     position:fixed;
     left:2rem;
-    bottom:3rem;
+    bottom:0;
+    z-index:10;
 }
-
-.header__socials::after{
+.header__email{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:.8rem;
+    position:fixed;
+    right:2rem;
+    bottom:0;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    z-index:10;
+}
+.header__pullme{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    position:fixed;
+    right:2rem;
+    top:0;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    z-index:8;
+}
+.header__pullme a{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:1px solid var(--color-primary);
+    cursor:pointer;
+}
+.header__socials::after, .header__pullme::before{
     content:'';
     width:1px;
-    height:2rem;
+    height:9rem;
+    background:var(--color-primary);
+}
+.header__pullme::before{
+    height:5rem;
+}
+.header__email::after, nav::before{
+    content:'';
+    width:1px;
+    height:9rem;
     background:var(--color-primary);
 }
 
@@ -82,11 +133,25 @@ header{
 
 .scroll__down{
     position:fixed;
-    right:2rem;
-    bottom:5rem;
+    right:0;
+    bottom:10rem;
     transform: rotate(90deg);
     font-weight:300;
     font-size:1.2rem;
+}
+
+/******* SKILLS ******/
+.skills-item:not(:first-child){
+    margin-top:2rem;
+}
+.skills-item h4{
+    font-size:1.2rem;
+}
+.content__container{
+    background:rgba(0,0,0,.03);
+    padding:2rem;
+    border-radius:1rem;
+    width:100%;
 }
 
 /* ----------- MEDIA QUERIES (MD DEV) ------------- */

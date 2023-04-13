@@ -1,0 +1,39 @@
+.tabview__body{
+    display:flex;
+    position:relative;
+}
+.tabview__body .tabview__body-tabs{
+    width:20%;
+}
+.tabview__body .tabview__body-content{
+    width:80%;
+    padding:0 2rem;
+}
+.tabview__body-tabs li{
+    border-left:3px solid var(--color-secondary);
+    padding:1rem 2rem;
+    cursor:pointer;
+}
+.tabview__body-content-rows{
+    padding:2rem 0;
+    display:flex;
+    flex-direction:column;
+    gap:1.5rem;
+}
+.tabview__body-tabs li.active-tab{
+    border-left:3px solid var(--color-primary);
+    font-weight:600;
+}
+.tabview__body .tabview__body-content h5, .tabview__body .tabview__body-content small{
+    color:var(--color-secondary);
+}
+.tabview__body .tabview__body-content p{
+    position:relative;
+    padding-left:2rem;
+}
+.tabview__body .tabview__body-content p::before{
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: var(--color-primary);
+}

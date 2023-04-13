@@ -9,13 +9,13 @@ const Design = () => {
     {name: "Photoshop", Icon: SiAdobephotoshop}
 ];
   return (
-    <div className="design-skills">
+    <div className="design-skills skills-item">
         <h4>Design Skills</h4>
         <div className="design-skills_container">
             {design_skills.map(techItem => {
                 const {name, Icon} = techItem
                 return(
-                    <div className="design-skills_bullet">
+                    <div key={`bullet${name}`} className="design-skills_bullet">
                         <Icon/>
                         <span>{name}</span>
                     </div>

@@ -4,7 +4,7 @@ import {DiLess, DiSass, DiCss3, DiHtml5, DiJavascript1, DiJqueryLogo, DiReact} f
 import {SiTailwindcss} from 'react-icons/si'
 const Frontend = () => {
   const frontend_skills = [
-    {name: "Javascript", Icon: DiJavascript1},
+    {name: "Javascript (ES6+)", Icon: DiJavascript1},
     {name: "jQuery", Icon: DiJqueryLogo},
     {name: "ReactJS", Icon: DiReact},
     {name: "HTML5", Icon: DiHtml5},
@@ -14,13 +14,13 @@ const Frontend = () => {
     {name: "TailwindCSS", Icon: SiTailwindcss}
 ];
   return (
-    <div className="frontend-skills">
+    <div className="frontend-skills skills-item">
         <h4>Frontend Development Skills</h4>
         <div className="frontend-skills_container">
             {frontend_skills.map(techItem => {
                 const {name, Icon} = techItem
                 return(
-                    <div className="frontend-skills_bullet">
+                    <div key={`bullet${name}`} className="frontend-skills_bullet">
                         <Icon/>
                         <span>{name}</span>
                     </div>
@@ -28,6 +28,7 @@ const Frontend = () => {
             })}
         </div>
     </div>
+    
 
   )
 }

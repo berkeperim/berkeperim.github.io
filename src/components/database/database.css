@@ -1,8 +1,5 @@
 :root{
-    --database-color: #345995;
-}
-.database-skills{
-    margin-top:4rem;
+    --database-color: var(--color-primary);
 }
 .database-skills svg{
     width:1.5rem;
@@ -14,6 +11,7 @@
 .database-skills_container{
     display:flex;
     gap:1rem;
+    flex-wrap:wrap;
     color:var(--color-white);
 }
 .database-skills_bullet{

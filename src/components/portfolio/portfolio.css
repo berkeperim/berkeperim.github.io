@@ -1,30 +1,104 @@
+
+#portfolio .container{
+    background:var(--color-primary);
+    color:var(--color-bg);
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
 .portfolio__container{
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:2.5rem;
+    display:flex;
+    flex-direction:row-reverse;
+    width:100%;
+    gap:1rem;
+}
+.portfolio__container > * {
+    width:33%;      
+}
+.portfolio__container ul{
+    border-right:1px solid var(--color-bg);
+}
+.portfolio__container ul li{
+    text-align:right;
+    padding:1rem;
+}
+.portfolio__content{
+    min-width:40%;
+}
+.portfolio__item-thumb{
+    width:100%;
+    height:300px;
+    background:var(--color-bg);
+    border-radius:10px;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.portfolio__item-technologies{
+    display:flex;
+    gap:1rem;
+    flex-wrap:wrap;
+    justify-content:end;
+}
+.portfolio__item-technologies-item{
+    color:var(--color-bg);
+    font-size:1.1rem;
+}
+.portfolio__item-description{
+    background: var(--color-bg);
+    color: var(--color-primary);
+    padding: 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.portfolio__item-status{
+    font-size:1rem;
+    line-height:1rem;
+    opacity:.5;
 }
 .portfolio__item{
-    background:var(--color-bg-variant);
     padding:1.2rem;
-    border-radius:2rem;
     border:1px solid transparent;
     transition:var(--transition);
+    text-align:right;
 }
-.portfolio__item:hover{
-    background:transparent;
-    border-color:var(--color-primary-variant);
-}
+
 .portfolio__item-image{
-    border-radius:1.5rem;
     overflow:hidden;
 }
 .portfolio__item h3{
     margin:1.2rem 0 2rem;
+    color:var(--color-primary);
 }
 .portfolio__item-cta{
     display:flex;
     gap:1rem;
     margin-bottom:1rem;
+}
+.portfolio__item::after{
+    content:'';
+    width:15%;
+    height:.3rem;
+    background:var(--color-bg);
+    display:block;
+    margin-top:1rem;
+    float:right;
+}
+#portfolio .section__title{
+    text-align:right;
+    position:relative;
+    width:100%;
+}
+
+#portfolio .section__title > h1::after{
+    position:absolute;
+    right:0;
+    background:var(--color-bg);
+}
+#portfolio .section__title > h1{
+    color:var(--color-bg);
 }
 /* ----------- MEDIA QUERIES (MD DEV) ------------- */
 @media screen and (max-width:1024px){

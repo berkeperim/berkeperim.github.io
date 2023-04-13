@@ -9,35 +9,18 @@ import {VscFolderLibrary} from 'react-icons/vsc'
 const About = () => {
   return (
     <section id="about">
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
-
-      <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
-            <img src={ME} alt="" />
-          </div>
+      <div className="container">
+        <div className="section__title">
+          <h3>Get To Know</h3>
+          <h1>About Me</h1>
         </div>
-        <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about__icon"/>
-              <h5>Experience</h5>
-              <small>+5 Years Working</small>
-            </article>
-            <article className="about__card">
-              <FiUsers className="about__icon"/>
-              <h5>Clients</h5>
-              <small>+5 Years Working</small>
-            </article>
-            <article className="about__card">
-              <VscFolderLibrary className="about__icon"/>
-              <h5>Projects</h5>
-              <small>+5 Years Working</small>
-            </article>
+        <div className="about__container">
+          <div className="about__content">
+            <p>My name is Berke and I enjoy creating things that live on the internet. I'm a Turkey based Frontend Developer and a bit of Backend Developer :)</p>
+            <p>I have more than 5 years of experience as a Frontend Developer. I have had the privilage of working at <b>many advertising agencies</b>, <b>a company that develops a CRM project - smart call system - with small ERP structure</b>, <b>a company that develops booking applications</b> and currently <b>a huge startup that produces personalization, recommendation and predictive technology for e-commerce brands.</b></p>
+            <p>I have hands on experience using front-end technologies and frameworks like <b>VanillaJS</b>, <b>ReactJS</b>, <b>jQuery</b> and back-end technologies and frameworks like <b>PHP</b>, <b>NodeJS</b>, <b>Laravel</b>. I am currently working on <b>ReactJS</b> and <b>NodeJS</b> to further my proficiency in these languages.</p> 
+            <a href="#contact" className="btn btn-primary">Let's Talk</a>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dignissimos facere hic fugit velit, doloremque odio quidem dolores quo aperiam eum enim rerum dicta ab commodi minus voluptatibus harum! Vitae?</p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
     </section>

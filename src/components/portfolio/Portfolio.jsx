@@ -1,36 +1,85 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio.PNG'
+
 const data = [
   {
-    id:1,
-    image:IMG1,
-    title: 'Portfolio Web Site With ReactJS',
-    github: 'https://github.com'
+    thumb:"berkeperim.github.io",
+    title: 'My Porfolio Web Site',
+    github: 'https://github.com',
+    status: "Deployed",
+    description:'My portfolio that I designed and developed using React.',
+    technologies: [
+      {name:"React"},
+      {name:"Javascript"},
+      {name:"CSS3"},
+      {name:"HTML5"}
+    ]
+  },
+  {
+    thumb:"Folsis",
+    title: 'Folsis',
+    github: 'https://github.com',
+    status:'In Progress',
+    description:'A system that tracks shipments, checks balances, manages employees and customers, and has a module and authorization structure.',
+    technologies: [
+      {name:"Javascript"},
+      {name:"jQuery"},
+      {name:"PHP"},
+      {name:"MySQL"},
+      {name:"CSS3"},
+      {name:"HTML5"}
+    ]
+  },
+  {
+    thumb:"Lil' Interest Monster",
+    title: "Lil' Interest Monster",
+    github: 'https://github.com',
+    status:'In Progress',
+    description:'A Javascript-based game for creating asset management and investment strategies. It also has its own stock market.',
+    technologies: [
+      {name:"Javascript"},
+      {name:"jQuery"},
+      {name:"CSS3"},
+      {name:"HTML5"}
+    ]
   }
 ]
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      
+      <div className="container">
+        <div className="section__title">
+          <h3>My Recent Work</h3>
+          <h1>Projects</h1>
+        </div>
+        <div className="portfolio__container">
+         
 
-      <div className="container portfolio__container">
         {
-          data.map(({id, image, title, github}) => {
+          data.map(({title, github, description, technologies, status}) => {
             return (
-              <article key={id} className="portfolio__item">
-                <div className="portfolio__item-image">
-                  <img src={image} alt={title} />
+                <div key={`item_${title}`} className="portfolio__item">
+                      <div className="portfolio__item-status">{status}</div>
+                      <div className="portfolio__item-title"><h2>{title}</h2></div>
+                      <div className="portfolio__item-description"><p>{description}</p></div>
+                      <div className="portfolio__item-technologies">
+                      {
+                      technologies.map(({name}) => { 
+                        return(
+                          <span key={`technology_${name}`} className="portfolio__item-technologies-item">
+                            <span>{name}</span>
+                          </span>
+                        )
+                      })
+                      }
+                      </div>
                 </div>
-                <h3>Portfolio Web Site With ReactJS</h3>
-                <div className="portfolio__item-cta">
-                  <a href={github} className="btn" target="_blank">Github</a>
-                </div>
-              </article>
             )
           })
         }
+          
+        </div>
       </div>
     </section>
   )

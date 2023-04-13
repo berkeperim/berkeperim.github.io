@@ -6,13 +6,13 @@ const Database = () => {
     {name: "MySQL", Icon: DiMysql}
 ];
   return (
-    <div className="database-skills">
+    <div className="database-skills skills-item">
         <h4>Database Development Skills</h4>
         <div className="database-skills_container">
             {database_skills.map(techItem => {
                 const {name, Icon} = techItem
                 return(
-                    <div className="database-skills_bullet">
+                    <div key={`bullet${name}`} className="database-skills_bullet">
                         <Icon/>
                         <span>{name}</span>
                     </div>

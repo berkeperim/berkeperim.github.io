@@ -1,21 +1,22 @@
 :root{
-    --backend-color: var(--color-primary);
+    --source-color: var(--color-primary);
 }
-.backend-skills svg{
+
+.source-skills svg{
     width:1.5rem;
     height:1.5rem;
 }
-.backend-skills h4{
+.source-skills h4{
     margin-bottom:1rem;
 }
-.backend-skills_container{
+.source-skills_container{
     display:flex;
     gap:1rem;
     flex-wrap:wrap;
-    color:var(--color-white);
+    color: var(--color-bg);
 }
-.backend-skills_bullet{
-    background:var(--backend-color);
+.source-skills_bullet{
+    background:var(--source-color);
     height:30px;
     display:flex;
     align-items:center;

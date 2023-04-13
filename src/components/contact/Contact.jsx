@@ -20,35 +20,17 @@ const Contact = () => {
   };
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
-      <div className="container contact__container">
-        <div className="contact__options">
-          <article className="contact__option">
-            <MdOutlineEmail/>
-            <h4>Email</h4>
-            <h5>berke.perim@gmail.com</h5>
-            <a href="mailto:berke.perim@gmail.com" target="_blank">Send a message</a>
-          </article>
-          <article className="contact__option">
-            <BsInstagram/>
-            <h4>Instagram</h4>
-            <h5>berke.perim</h5>
-            <a href="https://instagram.com/berke.perim" target="_blank">Send a message</a>
-          </article>
-          <article className="contact__option">
-            <BsLinkedin/>
-            <h4>LinkedIn</h4>
-            <h5>berke-perim</h5>
-            <a href="https://www.linkedin.com/in/berke-perim" target="_blank">Send a message</a>
-          </article>
+      <div className="container">
+        <div className="section__title">
+          <h3>Contact Me</h3>
+          <h1>Get In Touch</h1>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder="Your Full Name" required />
-          <input type="email" name="email" placeholder="Your Email" />
-          <textarea name="message" id="" placeholder="Your Message" rows="7" required></textarea>
-          <button type="submit" class="btn btn-primary">Send Message</button>
-        </form>
+        <div className="contact__container">
+          <div className="contact__options">
+            <p>My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
+              <a href="mailto:berke.perim@gmail.com" className="btn btn-primary" target="_blank">Send a message</a>
+          </div>
+        </div>
       </div>
     </section>
   )

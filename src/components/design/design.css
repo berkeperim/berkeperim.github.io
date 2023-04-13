@@ -1,9 +1,7 @@
 :root{
-    --design-color: #EAC435;
+    --design-color: var(--color-primary);
 }
-.design-skills{
-    margin-top:4rem;
-}
+
 .design-skills svg{
     width:1.5rem;
     height:1.5rem;
@@ -14,7 +12,7 @@
 .design-skills_container{
     display:flex;
     gap:1rem;
-    color:var(--color-bg-variant);
+    color:var(--color-bg);
 }
 .design-skills_bullet{
     background:var(--design-color);

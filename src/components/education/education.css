@@ -1,0 +1,18 @@
+.education__box{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    padding:.5rem;
+    gap:2rem;
+    border-radius:1rem;
+}
+.education__image{
+    position:relative;
+}
+.education__img{
+    width:auto;
+    height:35px !important;
+}
+.education__content h5{
+    color:#a0a0a0;
+}
