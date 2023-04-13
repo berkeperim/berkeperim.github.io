@@ -16,7 +16,7 @@ nav{
     display:none !important;
 }
 nav a{
-    padding:.9rem;
+    padding:.6rem;
     background:transparent;
     border-radius:50%;
     display:flex;
