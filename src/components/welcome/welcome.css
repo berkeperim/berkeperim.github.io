@@ -9,6 +9,7 @@
     display:flex;
     justify-content:center;
     align-items:center;
+    margin-top:0 !important;
     transition:all .5s ease;
 }
 #welcome.hide{
@@ -30,10 +31,10 @@
 .welcome__container{
     display:flex;
     flex-direction:column;
-    width:60%;
 }
 #welcome p{
     margin:2rem 0;
+    width:60%;
 }
 
 .welcome__buttons{
