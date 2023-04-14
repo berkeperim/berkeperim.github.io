@@ -55,16 +55,9 @@ input, textarea{
 
 /* ----------- MEDIA QUERIES (MD DEV) ------------- */
 @media screen and (max-width:1024px){
-    .contact__container{
-        grid-template-columns: 1fr;
-        gap:2rem;
-    }
 }
 /* ----------- MEDIA QUERIES (SM DEV) ------------- */
 @media screen and (max-width:600px){
-    .contact__container{
-        width:var(--container-width-sm);
-    }
     .contact__options{
         width:100%;
     }
