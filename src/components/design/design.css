@@ -24,3 +24,14 @@
     border-radius:5px;
     gap:.5rem;
 }
+/* ----------- MEDIA QUERIES (MD DEV) ------------- */
+@media screen and (max-width:1024px){
+    
+
+}
+/* ----------- MEDIA QUERIES (SM DEV) ------------- */
+@media screen and (max-width:600px){
+    .design-skills_bullet{
+        font-size:1rem;
+    }
+}
