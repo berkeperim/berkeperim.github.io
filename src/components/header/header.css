@@ -166,11 +166,20 @@ nav::before{
 }
 /* ----------- MEDIA QUERIES (SM DEV) ------------- */
 @media screen and (max-width:600px){
-    .header{
-        height:100vh;
+    .header__container{
+        flex-direction:column;
     }
-    .header__socials, .scroll__down{
-        display:none;
+    .header__left{
+        width:100%;
+    }
+    .header__pullme{
+        right:1rem;
+    }
+    .header__email{
+        right:1rem;
+    }
+    .header__socials{
+        left:1rem;
     }
 }
 

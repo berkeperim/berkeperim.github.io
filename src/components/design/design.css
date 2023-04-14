@@ -13,6 +13,7 @@
     display:flex;
     gap:1rem;
     color:var(--color-bg);
+    flex-wrap:wrap;
 }
 .design-skills_bullet{
     background:var(--design-color);

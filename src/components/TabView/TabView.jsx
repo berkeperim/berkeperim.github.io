@@ -23,7 +23,7 @@ const TabView = ({tabs = {}}) => {
                             
                         </div>
                         <div className="tabview__body-content">
-                            <h2>{tabs[activeTabIndex].job} <small>@{tabs[activeTabIndex].title}</small></h2>
+                            <h2><span>{tabs[activeTabIndex].job}</span><small>@{tabs[activeTabIndex].title}</small></h2>
                             <h5>{tabs[activeTabIndex].start_date} - {tabs[activeTabIndex].end_date}</h5>
                             <div className="tabview__body-content-rows">
                             {
