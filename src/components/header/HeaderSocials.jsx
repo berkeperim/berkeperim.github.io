@@ -9,6 +9,7 @@ const HeaderSocials = () => {
   const hideMe = () => {
       document.querySelector("#welcome").classList.toggle("hide");
       document.body.classList.toggle("hidden-scroll");
+      document.querySelector("html").classList.toggle("hidden-scroll");
   };
   return (
     <div className="header__bottom-container">
