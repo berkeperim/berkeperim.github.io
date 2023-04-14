@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.b5f78067.css",
-    "main.js": "/static/js/main.3aac5ee6.js",
+    "main.css": "/static/css/main.1eeedf79.css",
+    "main.js": "/static/js/main.ac1e568d.js",
     "static/media/1643811951610.jpg": "/static/media/1643811951610.e653b0b48760919fb4bf.jpg",
     "static/media/Berke_Perim_Resume.pdf": "/static/media/Berke_Perim_Resume.54b49bbb13bd80e5e7f4.pdf",
     "static/media/hired.png": "/static/media/hired.1cd72d04fa1035d1a3d4.png",
     "index.html": "/index.html",
-    "main.b5f78067.css.map": "/static/css/main.b5f78067.css.map",
-    "main.3aac5ee6.js.map": "/static/js/main.3aac5ee6.js.map"
+    "main.1eeedf79.css.map": "/static/css/main.1eeedf79.css.map",
+    "main.ac1e568d.js.map": "/static/js/main.ac1e568d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5f78067.css",
-    "static/js/main.3aac5ee6.js"
+    "static/css/main.1eeedf79.css",
+    "static/js/main.ac1e568d.js"
   ]
 }
