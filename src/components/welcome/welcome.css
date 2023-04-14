@@ -49,14 +49,14 @@
 /* ----------- MEDIA QUERIES (SM DEV) ------------- */
 @media screen and (max-width:600px){
     #welcome h1{
-        font-size:5rem;
-        line-height:5rem;
+        font-size:3.5rem;
+        line-height:3.5rem;
     }
     #welcome p{
         font-size:13px;
         width:70%;
     }
     .welcome__buttons .btn{
-        font-size:13px;
+        font-size:1rem;
     }
 }

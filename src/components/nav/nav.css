@@ -30,3 +30,14 @@ nav a.active {
     color:var(--color-primary);
 
 }
+/* ----------- MEDIA QUERIES (MD DEV) ------------- */
+@media screen and (max-width:1024px){
+    
+
+}
+/* ----------- MEDIA QUERIES (SM DEV) ------------- */
+@media screen and (max-width:600px){
+    nav{
+        left:1rem;
+    }
+}
