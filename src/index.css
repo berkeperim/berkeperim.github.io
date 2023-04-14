@@ -70,6 +70,8 @@ section{
 }
 .hidden-scroll{
     overflow-y:hidden;
+    touch-action: none;
+    -ms-touch-action: none;
 }
 .section__title > h1::after{
     content:'';
