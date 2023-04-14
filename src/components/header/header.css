@@ -181,5 +181,8 @@ nav::before{
     .header__socials{
         left:1rem;
     }
+    .content__container{
+        padding:1rem;
+    }
 }
 

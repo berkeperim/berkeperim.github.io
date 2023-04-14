@@ -7,3 +7,14 @@ footer{
 footer a{
     color:var(--color-primary);
 }
+
+/* ----------- MEDIA QUERIES (MD DEV) ------------- */
+@media screen and (max-width:1024px){
+   
+}
+/* ----------- MEDIA QUERIES (SM DEV) ------------- */
+@media screen and (max-width:600px){
+    footer a{
+        font-size:10px;
+    }
+}
