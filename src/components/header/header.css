@@ -184,5 +184,8 @@ nav::before{
     .content__container{
         padding:1rem;
     }
+    .header__info h5{
+        font-size:1rem;
+    }
 }
 
