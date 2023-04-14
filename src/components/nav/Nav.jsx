@@ -15,8 +15,6 @@ const Nav = () => {
     const navLi = document.querySelectorAll("nav a:not(a.btn)");
     if(sections.length > 0 && navLi.length > 0){
       clearInterval(waitSections);
-      console.log(sections);
-      console.log(navLi);
       window.onscroll = () => {
         var current = "";
         sections.forEach((section) => {
@@ -29,7 +27,6 @@ const Nav = () => {
         navLi.forEach((li) => {
           li.classList.remove("active");
           if (li.getAttribute("href").includes(current)) {
-            console.log(li);
             li.classList.add("active");
           }
         });

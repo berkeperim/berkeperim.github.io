@@ -33,7 +33,6 @@ header{
 .header__detail img{
     height:30px;
     width:auto;
-    background:#fff;
     padding:.2rem .5rem;
     border-radius:5px;
 }

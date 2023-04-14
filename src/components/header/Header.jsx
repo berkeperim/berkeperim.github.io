@@ -7,7 +7,7 @@ import Source from '../source/Source'
 import ME from '../../assets/1643811951610.jpg'
 import Education from '../education/Education'
 import Experiences from '../experiences/Experiences'
-import Company from '../../assets/hired.png'
+import Company from '../../assets/hired-dark.png'
 import HeaderSocial from './HeaderSocials'
 import './header.css'
 const Header = () => {
@@ -43,7 +43,7 @@ const Header = () => {
               </div>
             </div>
             <div className="header__right-item">
-              <h2 className="header__title">Experience</h2>
+              <h2 className="header__title">Experiences</h2>
               <div className="content__container">
                 <Experiences></Experiences>
               </div>

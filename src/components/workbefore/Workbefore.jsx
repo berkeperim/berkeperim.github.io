@@ -29,7 +29,7 @@ const companies = [
             'Used PHP, Codeigniter, Javascript, jQuery, Tailwind technologies while developing frontend and backend in these projects. Also used MySQL for database optimization.'
         ],
         key: 'esdisis',
-        job: 'Frontend Developer'
+        job: 'Full-stack Developer'
     },
     {
         title: 'Bulutsoft Yazılım',

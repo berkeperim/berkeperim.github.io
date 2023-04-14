@@ -28,7 +28,7 @@ const companies = [
         end_date:'Jun 2022',
         content: 'İkinci içerik',
         key: 'esdisis',
-        job: 'Frontend Developer'
+        job: 'Full-stack Developer'
     },
     {
         img: BULUT,
