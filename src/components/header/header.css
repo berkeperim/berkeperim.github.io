@@ -69,7 +69,7 @@ header{
     z-index:10;
 }
 .header__email{
-    font-size:.7rem;
+    font-size:1rem;
     display:flex;
     flex-direction:row;
     align-items:center;
@@ -190,6 +190,9 @@ nav::before{
     }
     .skills-item h4{
         font-size:1rem;
+    }
+    .header__email{
+        font-size:.7rem;
     }
 }
 
