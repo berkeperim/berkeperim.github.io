@@ -29,7 +29,7 @@ const TabView = ({tabs = {}}) => {
                             {
                                 tabs[activeTabIndex].content.map((row, index) => {
                                     return(
-                                        <p>{row}</p>
+                                        <p key={index}>{row}</p>
                                     )
                                 })
                             }

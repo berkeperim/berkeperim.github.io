@@ -12,13 +12,6 @@ import Welcome from './components/welcome/Welcome'
 import Footer from './components/footer/Footer'
 
 const App = () => {
-  const experienceArr = [
-    {name: "1", test: "a"},
-    {name: "2", test: "b"},
-    {name: "3", test: "c"},
-    {name: "4", test: "d"},
-  ];
-  const ExperienceTab = [];
   return (
       <>
         <CustomCursor/>

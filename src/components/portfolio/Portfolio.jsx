@@ -4,7 +4,7 @@ import './portfolio.css'
 const data = [
   {
     thumb:"berkeperim.github.io",
-    title: 'My Porfolio Web Site',
+    title: 'My Portfolio Web Site',
     github: 'https://github.com',
     status: "Deployed",
     description:'My portfolio that I designed and developed using React.',

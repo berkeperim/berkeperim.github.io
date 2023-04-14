@@ -1,6 +1,9 @@
 header{
     overflow:hidden;
 }
+#home{
+    padding:0;
+}
 .header__container{
     text-align:center;
     height:100%;
@@ -90,8 +93,8 @@ header{
     z-index:8;
 }
 .header__pullme a{
-    height:40px;
-    width:40px;
+    height:30px;
+    width:30px;
     border-radius:50%;
     display:flex;
     justify-content:center;
@@ -102,19 +105,21 @@ header{
 .header__socials::after, .header__pullme::before{
     content:'';
     width:1px;
-    height:9rem;
+    height:5rem;
     background:var(--color-primary);
 }
-.header__pullme::before{
+.header__pullme::before, .header__socials::after{
     height:5rem;
 }
 .header__email::after, nav::before{
     content:'';
     width:1px;
-    height:9rem;
+    height:5rem;
     background:var(--color-primary);
 }
-
+nav::before{
+    background:var(--color-secondary);
+}
 /* ------- ME -------- */
 
 .me{

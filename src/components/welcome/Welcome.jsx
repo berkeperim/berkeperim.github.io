@@ -5,6 +5,7 @@ import CV from '../../assets/Berke_Perim_Resume.pdf'
 const Welcome = () => {
     const hideMe = () => {
         document.querySelector("#welcome").classList.toggle("hide");
+        document.body.classList.toggle("hidden-scroll");
     };
     return (
         <section id="welcome">

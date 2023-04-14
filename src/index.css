@@ -67,6 +67,9 @@ section{
     font-size:5rem;
     line-height:5rem;
 }
+.hidden-scroll{
+    overflow-y:hidden;
+}
 .section__title > h1::after{
     content:'';
     width:15%;
