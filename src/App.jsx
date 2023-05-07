@@ -8,12 +8,13 @@ import CustomCursor from "./components/cursor/Cursor"
 import Contact from './components/contact/Contact'
 import WorkBefore from './components/workbefore/Workbefore'
 import Welcome from './components/welcome/Welcome'
-
+import Data from './components/ApiCall'
 import Footer from './components/footer/Footer'
 
 const App = () => {
   return (
       <>
+        <Data/>
         <CustomCursor/>
         <Welcome></Welcome>
         <Header></Header>
