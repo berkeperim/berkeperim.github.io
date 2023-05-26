@@ -13,7 +13,6 @@ import Footer from './components/footer/Footer'
 const App = () => {
   return (
       <>
-        <Data/>
         <CustomCursor/>
         <Welcome></Welcome>
         <Header></Header>
