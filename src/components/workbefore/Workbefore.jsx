@@ -105,9 +105,31 @@ const companies = [
     }
     
 ];
+function parseDate(dateStr) {
+    const [month, year] = dateStr.split(' ');
+    return new Date(`${month} 1, ${year}`);
+}
 
+function calculateTotalExperience(companies) {
+    let totalMonths = 0;
+
+    companies.forEach(job => {
+        const start = parseDate(job.start_date);
+        const end = job.end_date === 'Present' ? new Date() : parseDate(job.end_date);
+
+        const monthsDifference = (end.getFullYear() - start.getFullYear()) * 12 + (end.getMonth() - start.getMonth());
+        totalMonths += monthsDifference;
+    });
+
+    const years = Math.floor(totalMonths / 12);
+    const months = totalMonths % 12;
+
+    return { years, months };
+}
   
 const WorkBefore = () => {
+    const { years, months } = calculateTotalExperience(companies);
+
     return (
         <section id="workbefore">
           <div className="container">
@@ -119,6 +141,10 @@ const WorkBefore = () => {
                 </div>
                 <div className="workbefore__container">
                     <TabView tabs={companies}></TabView>
+                </div>
+                <div className="total-experience">
+                    <h2>Total Experience</h2>
+                    <p>{years} years and {months} months</p>
                 </div>
             </div>
             
