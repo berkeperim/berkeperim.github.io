@@ -15,12 +15,15 @@ const About = () => {
           <h1>About Me</h1>
         </div>
         <div className="about__container">
-          <div className="about__content">
-            <p>My name is Berke and I enjoy creating things that live on the internet. I'm a Turkey based Frontend Developer and a bit of Backend Developer :)</p>
-            <p>I have more than 5 years of experience as a Frontend Developer. I have had the privilage of working at <b>many advertising agencies</b>, <b>a company that develops a CRM project - smart call system - with small ERP structure</b>, <b>a company that develops booking applications</b> and currently <b>a huge startup that produces personalization, recommendation and predictive technology for e-commerce brands.</b></p>
-            <p>I have hands on experience using front-end technologies and frameworks like <b>Javascript</b>, <b>ReactJS</b>, <b>jQuery</b> and back-end technologies and frameworks like <b>PHP</b>, <b>NodeJS</b>, <b>Laravel</b>. I am currently working on <b>ReactJS</b> and <b>NodeJS</b> to further my proficiency in these languages.</p> 
-            <a href="#contact" className="btn btn-primary">Let's Talk</a>
-          </div>
+        <div className="about__content">
+          <p>My name is Berke, and I am a passionate Frontend Developer based in Turkey, with extensive experience in crafting dynamic and user-centric web applications. My expertise spans across both frontend and backend development, allowing me to contribute to various aspects of web development.</p>
+          
+          <p>Throughout my career, I have had the privilege of working with <b>leading advertising agencies</b>, as well as in companies focused on <b>CRM systems, smart call technologies, and ERP solutions</b>. Currently, I am part of a <b>forward-thinking startup</b>, where we develop advanced <b>personalization, recommendation, and predictive technologies</b> for e-commerce brands.</p>
+          
+          <p>I am proficient in frontend technologies and frameworks such as <b>JavaScript</b>, <b>ReactJS</b>, and <b>jQuery</b>, and have worked with backend technologies including <b>PHP</b>, <b>NodeJS</b>, and <b>Laravel</b>. At present, I am focused on enhancing my skills with <b>ReactJS</b> and <b>NodeJS</b>, aiming to drive innovation and improve the digital experiences I create.</p> 
+          
+          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+        </div>
         </div>
       </div>
     </section>

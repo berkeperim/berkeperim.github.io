@@ -9,6 +9,11 @@
     align-items:center;
     gap:2rem;
 }
+.experiences__head{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
 .experiences__img{
     height:50px;
     width:50px;

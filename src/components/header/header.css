@@ -18,6 +18,17 @@ header{
 .header__left{
     width:80%;
 }
+.header__top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.header__top .header-total-experience{
+    background-color:transparent;
+    color: var(--color-primary);
+    font-size:13px;
+    margin:0 !important;
+}
 .header__img{
     height:50px;
     width:50px;

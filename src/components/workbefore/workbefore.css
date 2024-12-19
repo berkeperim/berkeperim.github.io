@@ -5,6 +5,9 @@
     width:60vw;
     min-height:50vh;
 }
+#workbefore .section__title > h1{
+    margin-bottom:0;
+}
 .corner1{
     position:absolute;
     height:200px;
@@ -33,4 +36,19 @@
 #workbefore .section__title h1{
     font-size:3rem;
     line-height:3rem;
+}
+.total-experience{
+    margin-bottom:2rem;
+    margin-top:2rem;
+}
+.total-experience p{
+    align-items: center;
+    background: var(--frontend-color);
+    border-radius: 5px;
+    display: flex;
+    gap: .5rem;
+    height: 30px;
+    padding: 0 .5rem;
+    color:var(--color-white);
+    width:fit-content;
 }

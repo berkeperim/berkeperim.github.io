@@ -10,9 +10,9 @@ const companies = [
         start_date: 'Sep 2022',
         end_date:'Present',
         content: [
-            'Run the frontend development processes of huge e-commerce brands using the algorithms and personalized data of the product developed by the company.',
-            "Using Javascript (ES6) while running this frontend development process",
-            'Clients included Watsons, Vivense, Atelier Rebul and more'
+            'Handled frontend development for major e-commerce brands, leveraging advanced algorithms and personalized data solutions developed by the company.',
+            "Utilized modern JavaScript to create efficient and scalable frontend architectures.",
+            'Collaborated with high-profile clients such as Calvin Klein, Turkcell, Tommy Hilfiger, Atelier Rebul, and more.'
         ],
         key: 'persona',
         job: 'Frontend Developer'
@@ -59,7 +59,7 @@ const companies = [
             'I worked on integrating API data for the CRM application, facilitating seamless communication between various internal systems used by the company.'
         ],
         key: 'neta',
-        job: 'IT and Software Lead'
+        job: 'IT & Software Lead'
     },
     {
         title: 'Alpha Creative',
@@ -136,15 +136,15 @@ const WorkBefore = () => {
             <span className="corner1"></span>
             <div className="inner-container">
                 <div className="section__title">
-                <h3>Building my expertise</h3>
-                <h1>Where I've Worked</h1>
+                    <h3>Building my expertise</h3>
+                    <h1>Where I've Worked</h1>
+                </div>
+                <div className="total-experience">
+                    <h4>Total Experience</h4>
+                    <p>{years} years and {months} months</p>
                 </div>
                 <div className="workbefore__container">
                     <TabView tabs={companies}></TabView>
-                </div>
-                <div className="total-experience">
-                    <h2>Total Experience</h2>
-                    <p>{years} years and {months} months</p>
                 </div>
             </div>
             

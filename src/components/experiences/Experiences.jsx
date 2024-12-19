@@ -4,10 +4,13 @@ import PILL from '../../assets/pill.png'
 import ALPHA from '../../assets/alpha.png'
 import BULUT from '../../assets/bulutsoft.png'
 import ESDISIS from '../../assets/esdisis.png'
-import PERSONA from '../../assets/hired-logo.png'
+import PERSONA from '../../assets/personaclick_logo.png'
+import PROGELA from '../../assets/progela.png'
+import COMPANY from '../../assets/def_company.png'
 
 
-const companies = [
+
+export const companies = [
     {
         img: PERSONA,
         title: 'PersonaClick',
@@ -42,12 +45,23 @@ const companies = [
         job: 'Frontend Developer'
     },
     {
+        img: COMPANY,
+        title: 'Neta Bilgi İletişim ve Danışmanlık',
+        location: 'Eskişehir',
+        type: 'Office',
+        start_date: 'Dec 2018',
+        end_date:'Mar 2019',
+        content: 'İkinci içerik',
+        key: 'neta',
+        job: 'IT & Software Lead'
+    },
+    {
         img: ALPHA,
         title: 'Alpha Creative',
         location: 'Eskişehir',
         type: 'Office',
         start_date: 'Jul 2018',
-        end_date:'Jan 2019',
+        end_date:'Dec 2018',
         content: 'İkinci içerik',
         key: 'alpha',
         job: 'Frontend Developer'
@@ -61,6 +75,17 @@ const companies = [
         end_date:'Sep 2017',
         content: 'Birinci içerik',
         key: 'pill',
+        job: 'Frontend Developer'
+    },
+    {
+        img: PROGELA,
+        title: 'Progela',
+        location: 'Eskişehir',
+        type: 'Office',
+        start_date: 'Jun 2016',
+        end_date:'Sep 2016',
+        content: 'Birinci içerik',
+        key: 'progela',
         job: 'Frontend Developer'
     }
     
@@ -79,7 +104,6 @@ const Experiences = () => {
                                 <img src={img} alt="" />
                             </div>
                             <div className="experiences__content">
-                                <h4>{title}</h4>
                                 <h5>{location} - {type}</h5>
                                 <h5>{start_date} - {end_date}</h5>
                                 <small>{job}</small>

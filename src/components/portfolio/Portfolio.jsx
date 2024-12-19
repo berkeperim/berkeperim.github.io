@@ -19,7 +19,7 @@ const data = [
     thumb:"Folsis",
     title: 'Folsis',
     github: 'https://github.com',
-    status:'In Progress',
+    status:'Deployed',
     description:'A system that tracks shipments, checks balances, manages employees and customers, and has a module and authorization structure.',
     technologies: [
       {name:"Javascript"},
