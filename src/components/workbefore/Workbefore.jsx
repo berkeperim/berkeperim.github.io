@@ -48,11 +48,25 @@ const companies = [
         job: 'Frontend Developer'
     },
     {
+        title: 'Neta Bilgi İletişim ve Danışmanlık',
+        location: 'Eskişehir',
+        type: 'Office',
+        start_date: 'Dec 2018',
+        end_date:'Mar 2019',
+        content: [
+            'I developed a CRM application with features such as a smart search system, data tracking and control system, stock tracking, and reporting, using Laravel for backend development and JavaScript for frontend development.',
+            'I was responsible for setting up and managing the entire network infrastructure for a company with 90 employees, ensuring smooth operations and connectivity.',
+            'I worked on integrating API data for the CRM application, facilitating seamless communication between various internal systems used by the company.'
+        ],
+        key: 'neta',
+        job: 'IT and Software Lead'
+    },
+    {
         title: 'Alpha Creative',
         location: 'Eskişehir',
         type: 'Office',
         start_date: 'Jul 2018',
-        end_date:'Jan 2019',
+        end_date:'Dec 2018',
         content: [
             'Developed and maintained code for in-house and client websites primarily using HTML, CSS, JavaScript, and jQuery',
             'Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness',
