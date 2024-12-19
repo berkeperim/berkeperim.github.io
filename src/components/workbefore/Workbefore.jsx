@@ -86,7 +86,7 @@ const WorkBefore = () => {
             <span className="corner1"></span>
             <div className="inner-container">
                 <div className="section__title">
-                <h3>Here we go</h3>
+                <h3>Building my expertise</h3>
                 <h1>Where I've Worked</h1>
                 </div>
                 <div className="workbefore__container">
