@@ -74,6 +74,20 @@ const companies = [
         ],
         key: 'pill',
         job: 'Frontend Developer'
+    },
+    {
+        title: 'Progela',
+        location: 'Eskişehir',
+        type: 'Office',
+        start_date: 'Jun 2016',
+        end_date:'Sep 2016',
+        content: [
+            'Developed and maintained code for in-house and client websites primarily using HTML, CSS, JavaScript, and jQuery',
+            'Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness',
+            'Websites were developed dynamically using PHP and MySQL and deployed'
+        ],
+        key: 'progela',
+        job: 'Frontend Developer'
     }
     
 ];
