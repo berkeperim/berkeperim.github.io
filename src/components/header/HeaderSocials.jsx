@@ -16,7 +16,6 @@ const HeaderSocials = () => {
       <div className="header__socials">
           <a href="https://www.linkedin.com/in/berke-perim" target="_blank"><RiLinkedinLine></RiLinkedinLine></a>
           <a href="https://github.com/berkeperim" target="_blank"><VscGithubAlt></VscGithubAlt></a>
-          <a href="https://twitter.com/perimfdev" target="_blank"><FiTwitter></FiTwitter></a>
       </div>
       <div className="header__email">
         <a href="mailto:berke.perim@gmail.com">berke.perim@gmail.com</a>
